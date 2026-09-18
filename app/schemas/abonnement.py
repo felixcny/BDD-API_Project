@@ -12,7 +12,7 @@ class AbonnementCreate(BaseModel):
     statut: Literal["ACTIF", "EXPIRE", "ANNULE"] = "ACTIF"
     @model_validator(mode="after")  
     def validate_date_fin(self):
-        if self.date_fin < self.date_debut:
+        if self.date_fin <= self.date_debut:
             raise ValueError("La date de fin doit être supérieure à la date de début")
         return self
     
