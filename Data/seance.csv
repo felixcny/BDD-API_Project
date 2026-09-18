@@ -1,0 +1,601 @@
+﻿seance_id;nom;coach_id;date_heure;duree_min;capacite_max
+1;Musculation - Tous niveaux;1;10/10/2026 18:30;60;16
+2;Spinning - Tous niveaux;5;18/10/2026 18:30;60;14
+3;Cardio - Avancé;19;10/10/2026 06:30;30;15
+4;Spinning - Avancé;18;16/07/2026 12:15;60;26
+5;Cross Training - Débutant;16;17/04/2026 09:00;75;14
+6;Musculation - Avancé;1;07/05/2026 06:30;60;13
+7;Stretching - Intermédiaire;11;18/03/2026 07:30;30;22
+8;Pilates - Intermédiaire;2;19/03/2026 18:30;45;20
+9;Zumba - Tous niveaux;8;23/10/2026 12:15;45;23
+10;Cardio - Intermédiaire;19;09/09/2026 10:30;45;24
+11;Spinning - Intermédiaire;18;22/01/2026 09:00;45;25
+12;Cross Training - Intermédiaire;16;28/01/2026 12:15;60;18
+13;Zumba - Intermédiaire;8;23/02/2026 07:30;60;20
+14;Spinning - Intermédiaire;18;12/08/2026 07:30;45;22
+15;Boxe - Tous niveaux;14;30/10/2026 14:00;45;16
+16;Boxe - Avancé;10;07/07/2026 18:30;45;9
+17;Cross Training - Intermédiaire;16;10/04/2026 06:30;75;12
+18;Cardio - Débutant;19;16/08/2026 10:30;30;14
+19;Boxe - Tous niveaux;14;04/03/2026 10:30;45;13
+20;Mobilité - Intermédiaire;3;24/06/2026 07:30;60;13
+21;Pilates - Tous niveaux;4;04/12/2026 12:15;60;18
+22;Musculation - Avancé;12;02/11/2026 17:30;60;15
+23;Musculation - Intermédiaire;12;28/05/2026 18:30;75;16
+24;Boxe - Avancé;10;23/09/2026 14:00;45;16
+25;Pilates - Avancé;2;27/02/2026 12:15;60;16
+26;Cardio - Intermédiaire;20;05/10/2026 12:15;60;14
+27;Spinning - Intermédiaire;5;19/03/2026 18:30;60;22
+28;Stretching - Avancé;9;07/07/2026 20:30;45;16
+29;Spinning - Débutant;18;04/08/2026 10:30;45;13
+30;Stretching - Avancé;9;21/06/2026 17:30;30;18
+31;Stretching - Avancé;9;07/04/2026 14:00;30;25
+32;Boxe - Intermédiaire;10;23/02/2026 09:00;75;10
+33;Pilates - Avancé;4;15/04/2026 20:30;60;16
+34;Spinning - Intermédiaire;15;16/04/2026 06:30;60;12
+35;Musculation - Intermédiaire;12;08/11/2026 17:30;45;10
+36;Pilates - Avancé;2;16/08/2026 07:30;45;14
+37;Cross Training - Intermédiaire;16;13/07/2026 14:00;60;9
+38;Pilates - Avancé;4;12/11/2026 14:00;60;21
+39;Pilates - Avancé;6;06/08/2026 19:30;45;12
+40;Spinning - Débutant;15;16/11/2026 12:15;60;27
+41;Cardio - Avancé;20;17/01/2026 19:30;60;18
+42;Stretching - Tous niveaux;11;03/02/2026 09:00;45;14
+43;Zumba - Débutant;8;07/03/2026 17:30;60;26
+44;Musculation - Tous niveaux;12;03/05/2026 18:30;75;13
+45;Cardio - Intermédiaire;20;08/06/2026 06:30;30;11
+46;Cross Training - Intermédiaire;16;03/01/2026 18:30;75;8
+47;Cardio - Débutant;20;02/11/2026 07:30;30;10
+48;Musculation - Intermédiaire;1;14/10/2026 19:30;75;14
+49;Boxe - Débutant;10;04/05/2026 07:30;75;11
+50;BodyPump - Débutant;7;30/11/2026 06:30;45;14
+51;Musculation - Avancé;12;29/05/2026 07:30;60;9
+52;Stretching - Intermédiaire;11;06/07/2026 09:00;30;13
+53;Zumba - Débutant;8;15/09/2026 12:15;60;31
+54;BodyPump - Tous niveaux;13;11/01/2026 07:30;45;15
+55;Musculation - Tous niveaux;12;07/01/2026 20:30;60;9
+56;Pilates - Tous niveaux;6;06/06/2026 18:30;60;14
+57;Zumba - Tous niveaux;8;26/01/2026 06:30;60;29
+58;Boxe - Débutant;10;01/01/2026 17:30;45;8
+59;Spinning - Tous niveaux;18;11/04/2026 06:30;45;13
+60;Stretching - Avancé;11;06/10/2026 07:30;60;14
+61;Zumba - Avancé;8;15/04/2026 14:00;60;27
+62;Pilates - Débutant;6;23/11/2026 07:30;60;21
+63;Boxe - Intermédiaire;14;08/10/2026 18:30;45;16
+64;Musculation - Intermédiaire;1;26/04/2026 07:30;45;16
+65;Pilates - Débutant;2;16/04/2026 09:00;60;22
+66;Spinning - Débutant;18;21/02/2026 10:30;60;24
+67;Stretching - Intermédiaire;9;22/11/2026 12:15;60;17
+68;BodyPump - Débutant;7;26/10/2026 19:30;45;27
+69;Musculation - Avancé;1;07/06/2026 18:30;60;14
+70;Musculation - Tous niveaux;12;10/08/2026 12:15;75;16
+71;BodyPump - Débutant;13;24/05/2026 06:30;60;18
+72;Boxe - Intermédiaire;10;02/10/2026 18:30;60;18
+73;Spinning - Avancé;5;01/12/2026 10:30;60;21
+74;Cross Training - Débutant;16;16/11/2026 17:30;60;10
+75;Pilates - Intermédiaire;17;25/11/2026 07:30;60;14
+76;Stretching - Avancé;11;16/11/2026 20:30;30;25
+77;Mobilité - Avancé;3;30/04/2026 09:00;45;17
+78;Stretching - Tous niveaux;9;25/07/2026 17:30;30;13
+79;Musculation - Tous niveaux;1;30/07/2026 09:00;45;11
+80;Spinning - Intermédiaire;15;28/10/2026 07:30;60;20
+81;Cross Training - Débutant;16;28/05/2026 20:30;60;14
+82;Pilates - Débutant;17;06/03/2026 17:30;60;14
+83;Spinning - Débutant;5;22/08/2026 12:15;45;27
+84;Boxe - Débutant;14;22/06/2026 09:00;75;9
+85;Boxe - Tous niveaux;14;08/01/2026 20:30;75;17
+86;BodyPump - Avancé;7;23/01/2026 18:30;60;12
+87;Pilates - Débutant;17;19/06/2026 07:30;60;14
+88;Cross Training - Avancé;16;09/07/2026 10:30;45;18
+89;Zumba - Débutant;8;27/05/2026 17:30;45;20
+90;Stretching - Avancé;9;20/07/2026 07:30;60;17
+91;Musculation - Intermédiaire;12;29/06/2026 07:30;60;8
+92;Cardio - Avancé;19;03/05/2026 20:30;30;14
+93;Spinning - Tous niveaux;5;11/12/2026 19:30;45;12
+94;Boxe - Avancé;14;05/05/2026 20:30;75;9
+95;Musculation - Débutant;12;04/10/2026 18:30;45;15
+96;Cardio - Avancé;19;08/08/2026 10:30;45;15
+97;Boxe - Débutant;14;28/03/2026 10:30;60;14
+98;Cross Training - Tous niveaux;16;26/06/2026 10:30;45;9
+99;Boxe - Intermédiaire;10;11/11/2026 07:30;45;13
+100;Spinning - Intermédiaire;15;22/10/2026 14:00;45;21
+101;Spinning - Avancé;15;04/05/2026 19:30;60;17
+102;Spinning - Tous niveaux;18;12/11/2026 09:00;45;22
+103;BodyPump - Intermédiaire;7;03/03/2026 09:00;60;23
+104;Pilates - Débutant;4;03/12/2026 18:30;45;11
+105;Spinning - Débutant;18;09/08/2026 06:30;45;18
+106;Zumba - Débutant;8;01/05/2026 19:30;45;24
+107;Boxe - Débutant;14;03/01/2026 07:30;60;15
+108;Spinning - Débutant;18;20/02/2026 20:30;60;20
+109;Boxe - Tous niveaux;10;19/10/2026 18:30;75;11
+110;Cardio - Débutant;20;28/01/2026 09:00;30;24
+111;BodyPump - Intermédiaire;13;08/03/2026 09:00;60;12
+112;Pilates - Tous niveaux;17;18/11/2026 09:00;60;13
+113;Mobilité - Avancé;3;23/03/2026 17:30;45;17
+114;BodyPump - Intermédiaire;13;07/10/2026 20:30;60;23
+115;Boxe - Tous niveaux;14;05/05/2026 10:30;45;11
+116;Boxe - Tous niveaux;10;16/11/2026 06:30;75;18
+117;Cross Training - Tous niveaux;16;15/05/2026 09:00;45;12
+118;Musculation - Intermédiaire;12;09/01/2026 07:30;75;11
+119;Spinning - Débutant;15;01/01/2026 07:30;60;12
+120;Pilates - Tous niveaux;17;29/04/2026 09:00;60;10
+121;Musculation - Avancé;1;01/11/2026 19:30;75;11
+122;Musculation - Intermédiaire;12;23/04/2026 18:30;45;13
+123;Pilates - Avancé;17;15/03/2026 06:30;60;19
+124;Cardio - Avancé;19;20/08/2026 09:00;60;12
+125;Zumba - Avancé;8;04/03/2026 10:30;60;19
+126;Cardio - Tous niveaux;20;18/02/2026 12:15;60;17
+127;Cardio - Avancé;20;26/02/2026 07:30;45;13
+128;Boxe - Avancé;10;28/04/2026 20:30;75;8
+129;Cross Training - Intermédiaire;16;15/09/2026 12:15;60;13
+130;Musculation - Débutant;1;10/06/2026 10:30;45;10
+131;Musculation - Tous niveaux;1;23/03/2026 20:30;60;13
+132;Stretching - Débutant;11;18/08/2026 12:15;45;22
+133;Pilates - Débutant;6;16/11/2026 10:30;60;18
+134;Cardio - Intermédiaire;19;11/01/2026 06:30;60;19
+135;Cardio - Tous niveaux;20;02/06/2026 20:30;30;12
+136;Spinning - Intermédiaire;18;03/04/2026 10:30;60;19
+137;Musculation - Tous niveaux;1;05/07/2026 14:00;45;14
+138;Cardio - Avancé;19;09/07/2026 17:30;30;20
+139;Cross Training - Intermédiaire;16;18/03/2026 12:15;45;8
+140;BodyPump - Avancé;13;26/01/2026 14:00;60;24
+141;Boxe - Tous niveaux;10;16/01/2026 06:30;60;14
+142;Stretching - Intermédiaire;11;22/04/2026 07:30;45;20
+143;BodyPump - Tous niveaux;7;26/01/2026 20:30;60;25
+144;Pilates - Débutant;17;05/03/2026 12:15;45;22
+145;Cross Training - Avancé;16;04/06/2026 06:30;45;18
+146;Cardio - Avancé;20;11/02/2026 07:30;60;16
+147;Zumba - Avancé;8;09/04/2026 12:15;45;30
+148;Pilates - Avancé;2;19/05/2026 06:30;60;14
+149;Mobilité - Débutant;3;07/07/2026 09:00;60;16
+150;Musculation - Débutant;1;09/01/2026 17:30;45;11
+151;Pilates - Débutant;17;04/06/2026 10:30;60;17
+152;Spinning - Avancé;18;20/05/2026 10:30;60;27
+153;Musculation - Avancé;1;23/07/2026 12:15;60;10
+154;Pilates - Tous niveaux;6;25/06/2026 17:30;60;18
+155;Spinning - Tous niveaux;18;13/08/2026 10:30;60;21
+156;Zumba - Débutant;8;07/11/2026 14:00;60;22
+157;Cardio - Intermédiaire;19;25/06/2026 07:30;30;17
+158;Musculation - Avancé;1;24/07/2026 10:30;60;8
+159;Spinning - Tous niveaux;15;18/04/2026 09:00;60;27
+160;Cardio - Débutant;19;19/02/2026 10:30;45;21
+161;Pilates - Avancé;17;06/08/2026 10:30;60;10
+162;Mobilité - Tous niveaux;3;10/01/2026 09:00;45;11
+163;Pilates - Débutant;6;11/11/2026 06:30;45;19
+164;Musculation - Débutant;1;14/01/2026 17:30;75;8
+165;Boxe - Intermédiaire;10;07/01/2026 12:15;45;16
+166;Cross Training - Tous niveaux;16;24/03/2026 18:30;45;10
+167;Cardio - Tous niveaux;19;06/11/2026 09:00;45;19
+168;Pilates - Tous niveaux;2;10/07/2026 06:30;45;22
+169;Spinning - Avancé;18;28/03/2026 17:30;60;19
+170;Pilates - Tous niveaux;6;20/03/2026 19:30;45;13
+171;Cross Training - Tous niveaux;16;11/08/2026 18:30;60;17
+172;BodyPump - Tous niveaux;13;22/03/2026 19:30;45;27
+173;Pilates - Intermédiaire;17;14/03/2026 19:30;60;11
+174;Pilates - Intermédiaire;4;12/06/2026 20:30;45;13
+175;Cardio - Tous niveaux;19;15/09/2026 09:00;30;10
+176;Pilates - Tous niveaux;17;05/09/2026 19:30;60;10
+177;Mobilité - Débutant;3;27/04/2026 17:30;30;16
+178;BodyPump - Avancé;7;22/09/2026 10:30;45;18
+179;Zumba - Débutant;8;19/01/2026 19:30;60;18
+180;Stretching - Avancé;11;26/11/2026 06:30;30;19
+181;Zumba - Tous niveaux;8;28/09/2026 06:30;60;32
+182;Mobilité - Intermédiaire;3;28/11/2026 17:30;60;8
+183;Zumba - Avancé;8;21/05/2026 19:30;60;19
+184;Stretching - Avancé;9;11/11/2026 14:00;45;10
+185;BodyPump - Tous niveaux;7;28/01/2026 09:00;60;18
+186;Spinning - Avancé;18;11/08/2026 19:30;60;25
+187;Musculation - Tous niveaux;12;21/05/2026 17:30;60;13
+188;Pilates - Intermédiaire;6;14/05/2026 20:30;45;18
+189;Boxe - Tous niveaux;14;02/07/2026 18:30;45;17
+190;Mobilité - Débutant;3;04/04/2026 12:15;60;17
+191;Spinning - Avancé;5;21/01/2026 17:30;60;17
+192;Pilates - Débutant;4;13/12/2026 20:30;45;16
+193;Cardio - Tous niveaux;19;06/02/2026 12:15;30;16
+194;BodyPump - Avancé;13;22/07/2026 06:30;60;16
+195;Cardio - Tous niveaux;20;08/04/2026 17:30;30;18
+196;Musculation - Intermédiaire;1;03/07/2026 17:30;45;11
+197;Stretching - Débutant;11;08/04/2026 20:30;45;22
+198;Spinning - Intermédiaire;5;09/10/2026 18:30;45;24
+199;Spinning - Débutant;15;12/02/2026 06:30;60;13
+200;Spinning - Intermédiaire;5;08/04/2026 18:30;60;26
+201;Stretching - Intermédiaire;11;27/03/2026 10:30;30;23
+202;Mobilité - Avancé;3;18/04/2026 12:15;60;8
+203;Spinning - Avancé;5;26/03/2026 14:00;45;20
+204;Musculation - Intermédiaire;12;26/04/2026 12:15;75;15
+205;BodyPump - Intermédiaire;7;24/06/2026 18:30;45;20
+206;Pilates - Tous niveaux;6;02/11/2026 20:30;45;13
+207;Spinning - Intermédiaire;18;27/04/2026 06:30;60;23
+208;Stretching - Tous niveaux;11;07/09/2026 10:30;30;16
+209;Mobilité - Intermédiaire;3;10/05/2026 19:30;45;20
+210;Mobilité - Débutant;3;10/05/2026 06:30;45;20
+211;Pilates - Avancé;2;14/06/2026 18:30;60;16
+212;Stretching - Avancé;11;19/07/2026 12:15;60;17
+213;Musculation - Avancé;12;10/08/2026 10:30;45;14
+214;BodyPump - Intermédiaire;13;10/09/2026 18:30;45;24
+215;Pilates - Intermédiaire;4;11/11/2026 07:30;60;18
+216;Cardio - Débutant;20;27/03/2026 18:30;60;14
+217;Mobilité - Débutant;3;24/03/2026 10:30;60;13
+218;Zumba - Débutant;8;09/09/2026 17:30;60;32
+219;Zumba - Avancé;8;09/03/2026 17:30;45;23
+220;BodyPump - Débutant;7;01/06/2026 06:30;60;26
+221;Mobilité - Débutant;3;20/01/2026 07:30;45;16
+222;Spinning - Débutant;18;15/11/2026 18:30;45;27
+223;Boxe - Tous niveaux;14;19/07/2026 17:30;75;17
+224;Pilates - Débutant;6;06/06/2026 19:30;60;22
+225;Spinning - Intermédiaire;15;20/01/2026 07:30;45;26
+226;Cardio - Débutant;19;11/11/2026 12:15;30;13
+227;Boxe - Avancé;14;25/02/2026 10:30;75;16
+228;Cardio - Débutant;20;10/01/2026 07:30;45;14
+229;BodyPump - Intermédiaire;13;23/08/2026 17:30;60;22
+230;Zumba - Tous niveaux;8;06/10/2026 06:30;60;26
+231;Pilates - Avancé;17;03/06/2026 06:30;60;17
+232;Stretching - Intermédiaire;11;06/09/2026 09:00;30;18
+233;Musculation - Avancé;1;14/04/2026 10:30;45;8
+234;Musculation - Intermédiaire;12;08/08/2026 12:15;45;11
+235;Stretching - Avancé;11;09/12/2026 12:15;60;16
+236;Spinning - Débutant;5;17/06/2026 10:30;60;17
+237;Pilates - Avancé;17;17/10/2026 12:15;45;12
+238;BodyPump - Avancé;13;09/03/2026 17:30;60;24
+239;BodyPump - Intermédiaire;7;29/10/2026 18:30;45;19
+240;Pilates - Intermédiaire;17;08/03/2026 18:30;45;21
+241;Boxe - Avancé;14;25/03/2026 19:30;60;8
+242;Stretching - Débutant;11;10/08/2026 19:30;45;17
+243;Stretching - Débutant;9;24/11/2026 20:30;60;15
+244;Stretching - Intermédiaire;11;20/01/2026 18:30;30;15
+245;Boxe - Tous niveaux;10;20/11/2026 17:30;75;12
+246;Spinning - Avancé;15;12/10/2026 20:30;45;20
+247;Pilates - Avancé;2;13/07/2026 06:30;45;15
+248;Musculation - Tous niveaux;1;23/11/2026 19:30;45;11
+249;Cross Training - Débutant;16;09/03/2026 07:30;45;18
+250;Musculation - Avancé;12;23/04/2026 20:30;45;10
+251;Musculation - Avancé;12;24/11/2026 20:30;45;9
+252;Stretching - Avancé;9;09/01/2026 06:30;30;21
+253;Pilates - Débutant;6;19/05/2026 10:30;45;12
+254;Boxe - Intermédiaire;10;19/02/2026 19:30;60;13
+255;Pilates - Intermédiaire;6;01/02/2026 18:30;45;19
+256;Musculation - Intermédiaire;1;10/01/2026 09:00;75;16
+257;BodyPump - Intermédiaire;7;10/12/2026 10:30;45;24
+258;Boxe - Débutant;10;20/09/2026 18:30;45;14
+259;BodyPump - Avancé;7;10/05/2026 14:00;45;12
+260;Stretching - Tous niveaux;11;16/10/2026 09:00;45;10
+261;Cardio - Tous niveaux;19;03/07/2026 12:15;60;16
+262;BodyPump - Intermédiaire;7;26/05/2026 18:30;45;26
+263;Musculation - Intermédiaire;12;09/08/2026 14:00;75;15
+264;Stretching - Débutant;11;01/01/2026 20:30;30;10
+265;BodyPump - Intermédiaire;13;16/06/2026 10:30;60;18
+266;Pilates - Débutant;4;03/07/2026 10:30;60;13
+267;Spinning - Débutant;5;21/11/2026 18:30;60;21
+268;Spinning - Tous niveaux;15;18/11/2026 17:30;60;17
+269;Stretching - Avancé;9;06/05/2026 12:15;45;22
+270;Cardio - Avancé;19;21/05/2026 07:30;45;14
+271;Pilates - Tous niveaux;4;09/04/2026 09:00;60;21
+272;Pilates - Débutant;2;13/03/2026 17:30;60;22
+273;Cardio - Avancé;20;16/02/2026 10:30;45;22
+274;Pilates - Débutant;4;21/06/2026 20:30;45;17
+275;Musculation - Tous niveaux;12;04/12/2026 20:30;75;8
+276;Mobilité - Avancé;3;04/09/2026 10:30;30;17
+277;Pilates - Intermédiaire;6;04/04/2026 12:15;60;16
+278;BodyPump - Tous niveaux;7;27/09/2026 19:30;45;28
+279;Zumba - Tous niveaux;8;14/06/2026 12:15;60;31
+280;Mobilité - Intermédiaire;3;01/06/2026 10:30;30;20
+281;Stretching - Débutant;11;17/09/2026 18:30;60;13
+282;Cardio - Tous niveaux;20;04/08/2026 06:30;60;19
+283;Musculation - Débutant;1;02/10/2026 20:30;75;8
+284;BodyPump - Tous niveaux;7;04/02/2026 20:30;60;12
+285;BodyPump - Tous niveaux;13;16/05/2026 18:30;60;12
+286;BodyPump - Tous niveaux;7;06/01/2026 12:15;45;24
+287;Musculation - Tous niveaux;1;13/12/2026 06:30;45;8
+288;BodyPump - Tous niveaux;7;05/02/2026 09:00;60;28
+289;Stretching - Tous niveaux;11;03/01/2026 17:30;30;11
+290;Stretching - Intermédiaire;9;16/05/2026 17:30;60;11
+291;Cardio - Avancé;19;28/11/2026 17:30;30;17
+292;Cross Training - Tous niveaux;16;22/06/2026 09:00;45;14
+293;Spinning - Tous niveaux;5;26/10/2026 20:30;45;15
+294;Musculation - Intermédiaire;1;06/01/2026 19:30;45;16
+295;BodyPump - Tous niveaux;13;12/04/2026 18:30;60;24
+296;Boxe - Tous niveaux;14;19/06/2026 20:30;45;8
+297;Pilates - Avancé;2;16/08/2026 20:30;45;11
+298;Spinning - Avancé;15;11/02/2026 06:30;45;21
+299;BodyPump - Tous niveaux;13;13/03/2026 06:30;60;27
+300;Stretching - Intermédiaire;9;10/09/2026 19:30;30;21
+301;Spinning - Débutant;18;30/01/2026 14:00;60;18
+302;Stretching - Intermédiaire;11;25/07/2026 07:30;30;14
+303;Pilates - Débutant;17;14/01/2026 18:30;45;20
+304;Pilates - Débutant;6;10/07/2026 17:30;60;20
+305;Cardio - Tous niveaux;20;31/05/2026 19:30;30;10
+306;Spinning - Avancé;15;04/06/2026 10:30;60;21
+307;Musculation - Tous niveaux;1;08/05/2026 07:30;45;12
+308;Stretching - Intermédiaire;11;20/10/2026 17:30;60;12
+309;Cardio - Débutant;19;22/07/2026 07:30;60;12
+310;Stretching - Tous niveaux;11;19/04/2026 19:30;45;14
+311;Musculation - Débutant;1;08/04/2026 19:30;45;16
+312;Spinning - Avancé;15;05/02/2026 10:30;45;26
+313;Musculation - Tous niveaux;1;06/08/2026 17:30;75;8
+314;Zumba - Tous niveaux;8;20/03/2026 09:00;60;18
+315;Cardio - Avancé;19;03/07/2026 20:30;45;10
+316;Musculation - Débutant;1;02/03/2026 20:30;60;13
+317;Boxe - Intermédiaire;10;13/01/2026 09:00;45;11
+318;Musculation - Tous niveaux;1;01/11/2026 17:30;75;11
+319;Stretching - Débutant;11;23/05/2026 10:30;60;15
+320;Cardio - Débutant;19;17/08/2026 12:15;30;19
+321;Cardio - Intermédiaire;19;27/07/2026 20:30;60;11
+322;Cross Training - Avancé;16;15/12/2026 09:00;75;8
+323;Musculation - Tous niveaux;12;14/05/2026 14:00;45;11
+324;Cardio - Intermédiaire;19;25/08/2026 14:00;60;15
+325;Pilates - Tous niveaux;6;23/01/2026 10:30;60;15
+326;Pilates - Débutant;17;28/02/2026 18:30;60;18
+327;Pilates - Débutant;6;14/09/2026 10:30;60;22
+328;Pilates - Tous niveaux;17;13/03/2026 17:30;60;13
+329;Cardio - Intermédiaire;19;21/03/2026 20:30;30;24
+330;Mobilité - Débutant;3;14/02/2026 10:30;45;14
+331;Cardio - Intermédiaire;19;07/03/2026 19:30;30;11
+332;Spinning - Tous niveaux;18;12/07/2026 09:00;60;25
+333;Pilates - Tous niveaux;17;14/04/2026 18:30;45;13
+334;Pilates - Tous niveaux;4;28/10/2026 12:15;60;20
+335;Zumba - Tous niveaux;8;06/08/2026 09:00;60;28
+336;Zumba - Intermédiaire;8;20/03/2026 06:30;60;31
+337;Pilates - Débutant;17;13/03/2026 10:30;45;11
+338;Stretching - Tous niveaux;11;09/04/2026 19:30;30;22
+339;Zumba - Débutant;8;11/12/2026 06:30;45;15
+340;BodyPump - Tous niveaux;7;18/09/2026 18:30;45;21
+341;Stretching - Débutant;11;11/01/2026 06:30;45;16
+342;Musculation - Tous niveaux;1;08/03/2026 18:30;60;10
+343;Cross Training - Débutant;16;07/03/2026 19:30;60;16
+344;Stretching - Tous niveaux;11;06/02/2026 17:30;60;12
+345;Cross Training - Tous niveaux;16;12/12/2026 18:30;45;10
+346;Spinning - Avancé;15;12/06/2026 06:30;60;13
+347;Zumba - Avancé;8;06/03/2026 17:30;60;27
+348;Boxe - Tous niveaux;14;01/05/2026 10:30;45;15
+349;Boxe - Débutant;10;16/02/2026 10:30;60;17
+350;Musculation - Débutant;12;18/01/2026 14:00;75;15
+351;Spinning - Intermédiaire;15;28/04/2026 17:30;45;23
+352;Musculation - Avancé;12;16/09/2026 12:15;75;16
+353;Cardio - Tous niveaux;20;08/02/2026 06:30;30;10
+354;Spinning - Avancé;5;27/03/2026 07:30;45;20
+355;Musculation - Débutant;12;16/02/2026 09:00;60;10
+356;Cardio - Avancé;20;19/06/2026 06:30;45;16
+357;Musculation - Débutant;1;02/10/2026 12:15;60;15
+358;Boxe - Débutant;10;15/12/2026 19:30;60;11
+359;Musculation - Avancé;1;09/05/2026 20:30;75;13
+360;Boxe - Intermédiaire;14;25/01/2026 12:15;75;14
+361;Pilates - Tous niveaux;6;07/11/2026 07:30;45;14
+362;BodyPump - Intermédiaire;7;16/06/2026 14:00;45;19
+363;Musculation - Tous niveaux;12;24/08/2026 20:30;60;10
+364;Zumba - Intermédiaire;8;03/12/2026 12:15;60;17
+365;Spinning - Intermédiaire;5;20/05/2026 06:30;60;18
+366;Musculation - Intermédiaire;12;27/01/2026 07:30;60;13
+367;Stretching - Avancé;9;13/03/2026 17:30;45;16
+368;Stretching - Débutant;11;21/11/2026 20:30;30;18
+369;BodyPump - Intermédiaire;7;11/03/2026 18:30;60;22
+370;Boxe - Avancé;10;14/12/2026 19:30;75;17
+371;Pilates - Débutant;17;27/07/2026 09:00;45;20
+372;Spinning - Intermédiaire;18;14/06/2026 18:30;60;27
+373;Spinning - Tous niveaux;5;06/02/2026 06:30;45;26
+374;Spinning - Avancé;18;14/07/2026 20:30;60;28
+375;BodyPump - Tous niveaux;7;29/04/2026 17:30;45;27
+376;Musculation - Tous niveaux;1;23/06/2026 06:30;60;11
+377;Pilates - Intermédiaire;6;08/02/2026 09:00;45;11
+378;Spinning - Avancé;18;15/08/2026 12:15;60;28
+379;Spinning - Débutant;15;22/01/2026 19:30;45;23
+380;Musculation - Avancé;12;23/08/2026 14:00;45;15
+381;Stretching - Intermédiaire;9;10/04/2026 12:15;45;22
+382;Spinning - Débutant;15;15/10/2026 12:15;45;15
+383;Cardio - Débutant;20;28/11/2026 12:15;45;17
+384;Cross Training - Tous niveaux;16;18/02/2026 18:30;60;10
+385;Cardio - Intermédiaire;20;02/01/2026 06:30;30;24
+386;Pilates - Avancé;4;16/09/2026 10:30;45;13
+387;Musculation - Tous niveaux;1;27/04/2026 10:30;75;16
+388;Spinning - Intermédiaire;15;26/11/2026 10:30;45;15
+389;Cardio - Avancé;19;04/07/2026 06:30;30;23
+390;Boxe - Débutant;10;09/05/2026 09:00;60;15
+391;Cardio - Tous niveaux;19;02/05/2026 12:15;45;24
+392;Stretching - Débutant;9;04/05/2026 06:30;60;14
+393;Spinning - Débutant;15;11/09/2026 10:30;45;28
+394;Musculation - Avancé;12;09/07/2026 17:30;45;13
+395;BodyPump - Intermédiaire;13;16/08/2026 14:00;45;21
+396;Musculation - Tous niveaux;12;03/05/2026 18:30;60;9
+397;Spinning - Tous niveaux;5;12/12/2026 20:30;45;19
+398;Cardio - Débutant;19;06/10/2026 18:30;30;14
+399;BodyPump - Tous niveaux;7;01/01/2026 07:30;60;17
+400;Pilates - Avancé;6;28/07/2026 09:00;60;17
+401;Spinning - Débutant;5;24/01/2026 10:30;45;23
+402;Spinning - Tous niveaux;18;14/05/2026 18:30;60;13
+403;BodyPump - Avancé;13;16/06/2026 14:00;60;20
+404;Cardio - Intermédiaire;20;27/04/2026 17:30;60;11
+405;Mobilité - Intermédiaire;3;13/09/2026 07:30;45;14
+406;BodyPump - Tous niveaux;13;11/12/2026 20:30;45;15
+407;Musculation - Avancé;1;06/10/2026 12:15;75;13
+408;Pilates - Débutant;4;17/10/2026 17:30;45;14
+409;BodyPump - Débutant;13;05/06/2026 20:30;60;15
+410;Boxe - Intermédiaire;14;01/06/2026 14:00;60;11
+411;BodyPump - Intermédiaire;7;23/03/2026 06:30;60;14
+412;Musculation - Débutant;12;15/09/2026 10:30;60;10
+413;Stretching - Avancé;11;06/09/2026 12:15;45;10
+414;Pilates - Avancé;17;08/11/2026 09:00;45;18
+415;Spinning - Avancé;5;25/07/2026 17:30;45;23
+416;Pilates - Intermédiaire;17;18/09/2026 17:30;45;14
+417;Boxe - Débutant;10;25/10/2026 10:30;75;14
+418;Pilates - Intermédiaire;2;27/09/2026 07:30;60;10
+419;Pilates - Débutant;4;14/02/2026 18:30;60;14
+420;Spinning - Intermédiaire;15;24/11/2026 09:00;60;16
+421;Pilates - Débutant;6;11/02/2026 20:30;60;20
+422;Stretching - Avancé;11;07/12/2026 19:30;60;20
+423;Spinning - Débutant;18;10/04/2026 20:30;45;14
+424;Pilates - Débutant;17;30/03/2026 19:30;45;10
+425;Pilates - Avancé;4;05/02/2026 17:30;60;17
+426;Zumba - Intermédiaire;8;25/08/2026 09:00;45;30
+427;Musculation - Intermédiaire;1;12/06/2026 07:30;60;8
+428;Boxe - Intermédiaire;10;06/06/2026 14:00;45;8
+429;Pilates - Tous niveaux;6;24/05/2026 20:30;60;16
+430;Spinning - Débutant;18;21/05/2026 20:30;45;26
+431;Spinning - Débutant;5;11/11/2026 10:30;45;25
+432;Stretching - Tous niveaux;11;18/05/2026 12:15;30;13
+433;Mobilité - Débutant;3;21/07/2026 12:15;30;10
+434;Pilates - Débutant;2;14/04/2026 07:30;45;17
+435;Pilates - Intermédiaire;2;09/03/2026 10:30;45;13
+436;Spinning - Intermédiaire;5;15/03/2026 12:15;60;12
+437;Stretching - Débutant;9;17/05/2026 20:30;30;25
+438;Musculation - Intermédiaire;12;06/08/2026 10:30;45;15
+439;BodyPump - Intermédiaire;13;09/12/2026 07:30;60;26
+440;Spinning - Intermédiaire;18;02/08/2026 10:30;60;24
+441;Cardio - Débutant;19;23/09/2026 10:30;60;11
+442;Musculation - Avancé;12;03/10/2026 06:30;75;14
+443;Musculation - Intermédiaire;12;30/07/2026 18:30;75;10
+444;Stretching - Débutant;11;23/04/2026 18:30;60;18
+445;Cross Training - Débutant;16;02/04/2026 20:30;60;18
+446;Spinning - Avancé;15;14/12/2026 12:15;60;25
+447;Mobilité - Intermédiaire;3;05/04/2026 19:30;60;20
+448;Stretching - Avancé;9;17/03/2026 18:30;45;14
+449;Musculation - Avancé;12;03/01/2026 17:30;60;16
+450;Cardio - Débutant;20;10/08/2026 12:15;30;13
+451;Spinning - Intermédiaire;5;19/10/2026 14:00;60;28
+452;Pilates - Débutant;6;26/03/2026 12:15;60;12
+453;Musculation - Avancé;12;22/04/2026 06:30;75;15
+454;Boxe - Avancé;14;23/06/2026 19:30;60;16
+455;Boxe - Débutant;14;05/01/2026 12:15;45;18
+456;Cardio - Débutant;19;12/02/2026 19:30;30;23
+457;Boxe - Avancé;14;26/04/2026 07:30;45;13
+458;Spinning - Débutant;15;03/11/2026 06:30;45;13
+459;Cardio - Avancé;19;26/11/2026 14:00;60;22
+460;Stretching - Avancé;9;04/11/2026 14:00;60;12
+461;Spinning - Avancé;5;19/04/2026 06:30;45;19
+462;Stretching - Débutant;9;28/10/2026 19:30;30;11
+463;Cardio - Débutant;20;25/09/2026 10:30;30;11
+464;Zumba - Débutant;8;28/08/2026 10:30;45;25
+465;Cardio - Tous niveaux;19;22/09/2026 17:30;30;11
+466;Boxe - Débutant;14;18/10/2026 06:30;60;13
+467;Spinning - Intermédiaire;18;14/02/2026 17:30;45;26
+468;Pilates - Tous niveaux;4;16/09/2026 06:30;45;15
+469;Spinning - Débutant;5;22/05/2026 18:30;45;25
+470;BodyPump - Tous niveaux;7;08/09/2026 12:15;45;14
+471;Zumba - Intermédiaire;8;07/07/2026 10:30;45;31
+472;Pilates - Avancé;2;19/03/2026 12:15;60;15
+473;Cross Training - Débutant;16;01/05/2026 07:30;75;14
+474;Cardio - Avancé;19;01/05/2026 09:00;45;11
+475;Cardio - Intermédiaire;19;13/06/2026 18:30;30;24
+476;Pilates - Avancé;4;27/11/2026 10:30;60;19
+477;Stretching - Tous niveaux;9;22/10/2026 06:30;30;24
+478;Pilates - Intermédiaire;4;30/05/2026 12:15;45;12
+479;Cardio - Avancé;19;19/03/2026 09:00;30;22
+480;Musculation - Avancé;1;21/06/2026 06:30;60;13
+481;Mobilité - Avancé;3;18/07/2026 14:00;60;16
+482;Cardio - Débutant;20;17/03/2026 20:30;60;10
+483;Pilates - Avancé;4;31/08/2026 20:30;45;21
+484;Zumba - Débutant;8;31/03/2026 12:15;60;31
+485;Spinning - Intermédiaire;18;22/05/2026 18:30;45;16
+486;Cardio - Intermédiaire;19;22/11/2026 18:30;30;12
+487;Boxe - Avancé;14;26/07/2026 09:00;45;15
+488;Pilates - Intermédiaire;17;26/07/2026 12:15;45;22
+489;Cross Training - Débutant;16;24/07/2026 10:30;45;13
+490;Cardio - Débutant;19;26/05/2026 19:30;30;19
+491;Mobilité - Tous niveaux;3;01/12/2026 09:00;60;20
+492;Spinning - Avancé;5;21/02/2026 12:15;45;13
+493;Cardio - Avancé;20;23/05/2026 06:30;60;16
+494;Pilates - Intermédiaire;2;08/10/2026 20:30;45;14
+495;Boxe - Tous niveaux;14;26/02/2026 19:30;75;9
+496;Mobilité - Avancé;3;19/08/2026 19:30;60;11
+497;Pilates - Débutant;4;02/07/2026 14:00;45;16
+498;Zumba - Avancé;8;14/01/2026 14:00;60;20
+499;Stretching - Intermédiaire;11;21/10/2026 07:30;60;15
+500;Pilates - Intermédiaire;4;06/07/2026 06:30;60;14
+501;Pilates - Intermédiaire;2;31/10/2026 09:00;45;15
+502;Musculation - Débutant;12;02/07/2026 18:30;45;14
+503;Musculation - Tous niveaux;1;18/01/2026 06:30;75;9
+504;Zumba - Débutant;8;25/02/2026 18:30;45;15
+505;Spinning - Avancé;5;11/01/2026 06:30;45;15
+506;Musculation - Tous niveaux;1;23/02/2026 14:00;45;16
+507;BodyPump - Intermédiaire;13;15/07/2026 18:30;45;23
+508;Cardio - Avancé;19;13/10/2026 06:30;45;24
+509;Stretching - Débutant;9;16/08/2026 18:30;30;21
+510;Pilates - Débutant;6;31/10/2026 18:30;45;21
+511;Boxe - Avancé;10;06/05/2026 14:00;45;17
+512;BodyPump - Intermédiaire;13;21/05/2026 18:30;60;19
+513;Stretching - Tous niveaux;11;04/01/2026 20:30;60;11
+514;Cardio - Avancé;20;19/06/2026 19:30;60;12
+515;Boxe - Tous niveaux;14;23/10/2026 20:30;60;14
+516;Musculation - Tous niveaux;12;05/08/2026 17:30;60;12
+517;Stretching - Intermédiaire;11;15/04/2026 12:15;30;12
+518;Stretching - Avancé;9;26/06/2026 19:30;45;20
+519;Cross Training - Débutant;16;10/06/2026 06:30;45;8
+520;Spinning - Débutant;15;10/06/2026 19:30;60;19
+521;Zumba - Intermédiaire;8;27/11/2026 20:30;45;16
+522;Mobilité - Intermédiaire;3;12/07/2026 09:00;30;18
+523;Cardio - Avancé;20;02/12/2026 19:30;30;20
+524;Pilates - Intermédiaire;2;09/12/2026 14:00;60;10
+525;Pilates - Débutant;17;04/12/2026 10:30;45;22
+526;Mobilité - Intermédiaire;3;19/07/2026 18:30;45;20
+527;Spinning - Intermédiaire;18;03/11/2026 14:00;60;28
+528;Pilates - Intermédiaire;4;06/10/2026 10:30;60;15
+529;Musculation - Avancé;1;23/08/2026 17:30;60;13
+530;Cross Training - Tous niveaux;16;04/07/2026 09:00;75;15
+531;Spinning - Tous niveaux;5;20/11/2026 07:30;60;25
+532;Boxe - Intermédiaire;10;25/10/2026 07:30;60;10
+533;Spinning - Avancé;15;22/08/2026 17:30;45;28
+534;Pilates - Intermédiaire;4;03/12/2026 07:30;60;10
+535;BodyPump - Débutant;7;21/04/2026 19:30;60;15
+536;Cross Training - Avancé;16;20/04/2026 18:30;60;14
+537;BodyPump - Avancé;7;28/02/2026 17:30;45;22
+538;BodyPump - Tous niveaux;13;26/11/2026 18:30;60;24
+539;Spinning - Intermédiaire;5;29/06/2026 09:00;45;17
+540;Pilates - Débutant;6;06/11/2026 20:30;45;19
+541;Boxe - Tous niveaux;10;19/07/2026 14:00;45;12
+542;BodyPump - Intermédiaire;13;08/05/2026 18:30;60;24
+543;BodyPump - Intermédiaire;7;09/02/2026 20:30;45;27
+544;Pilates - Débutant;6;27/10/2026 18:30;60;11
+545;Musculation - Tous niveaux;12;28/04/2026 14:00;60;12
+546;Boxe - Tous niveaux;14;04/09/2026 17:30;60;11
+547;Musculation - Avancé;1;02/02/2026 09:00;45;15
+548;Spinning - Intermédiaire;5;07/09/2026 17:30;60;13
+549;Musculation - Débutant;12;08/12/2026 18:30;75;14
+550;Mobilité - Avancé;3;04/06/2026 18:30;30;9
+551;BodyPump - Débutant;13;20/09/2026 14:00;60;28
+552;Boxe - Débutant;10;05/04/2026 12:15;60;11
+553;Spinning - Intermédiaire;5;19/10/2026 18:30;60;14
+554;Pilates - Débutant;6;07/11/2026 10:30;60;12
+555;BodyPump - Intermédiaire;7;31/03/2026 09:00;60;14
+556;Boxe - Avancé;10;21/11/2026 14:00;45;11
+557;Spinning - Tous niveaux;5;12/01/2026 10:30;45;26
+558;Spinning - Intermédiaire;5;17/09/2026 06:30;60;20
+559;Boxe - Avancé;14;08/09/2026 06:30;45;10
+560;Spinning - Débutant;18;04/08/2026 20:30;45;19
+561;Pilates - Tous niveaux;6;27/04/2026 09:00;45;15
+562;Musculation - Débutant;1;04/07/2026 09:00;60;15
+563;Boxe - Intermédiaire;10;29/06/2026 17:30;60;10
+564;Spinning - Avancé;15;13/10/2026 07:30;60;15
+565;Cross Training - Avancé;16;08/02/2026 20:30;75;8
+566;Musculation - Débutant;1;24/02/2026 14:00;75;10
+567;Pilates - Débutant;6;23/02/2026 09:00;45;22
+568;Boxe - Avancé;10;30/10/2026 18:30;45;10
+569;Pilates - Intermédiaire;17;06/02/2026 07:30;60;13
+570;Stretching - Tous niveaux;11;08/03/2026 18:30;45;12
+571;Cross Training - Avancé;16;20/11/2026 10:30;75;16
+572;Spinning - Tous niveaux;18;11/09/2026 07:30;45;19
+573;Musculation - Débutant;12;13/03/2026 14:00;60;9
+574;Spinning - Débutant;15;09/06/2026 18:30;45;19
+575;Cross Training - Avancé;16;04/12/2026 18:30;60;16
+576;Pilates - Intermédiaire;2;04/10/2026 19:30;45;20
+577;Musculation - Avancé;12;09/10/2026 12:15;75;11
+578;Spinning - Tous niveaux;5;01/01/2026 06:30;60;28
+579;Pilates - Avancé;6;24/02/2026 06:30;45;11
+580;Pilates - Avancé;2;14/01/2026 14:00;45;16
+581;Musculation - Intermédiaire;1;16/07/2026 18:30;60;16
+582;Pilates - Intermédiaire;17;02/03/2026 09:00;45;10
+583;Boxe - Avancé;10;13/11/2026 07:30;45;13
+584;Boxe - Avancé;10;09/10/2026 09:00;75;13
+585;Boxe - Tous niveaux;14;06/02/2026 07:30;60;13
+586;Mobilité - Avancé;3;11/07/2026 07:30;60;13
+587;Musculation - Avancé;1;12/04/2026 07:30;60;13
+588;Spinning - Avancé;5;07/02/2026 20:30;60;24
+589;Zumba - Avancé;8;07/11/2026 14:00;60;23
+590;BodyPump - Intermédiaire;7;16/01/2026 20:30;45;20
+591;Pilates - Avancé;2;04/06/2026 19:30;45;22
+592;BodyPump - Intermédiaire;7;28/05/2026 09:00;60;14
+593;Zumba - Tous niveaux;8;11/02/2026 14:00;60;20
+594;Mobilité - Intermédiaire;3;08/01/2026 17:30;45;15
+595;Cardio - Débutant;19;26/03/2026 09:00;60;14
+596;Spinning - Avancé;5;19/02/2026 19:30;45;27
+597;Cardio - Débutant;20;24/03/2026 18:30;45;23
+598;Spinning - Tous niveaux;18;31/05/2026 17:30;45;27
+599;Zumba - Intermédiaire;8;28/03/2026 19:30;45;30
+600;Spinning - Débutant;5;31/08/2026 07:30;60;23
