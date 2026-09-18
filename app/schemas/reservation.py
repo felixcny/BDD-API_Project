@@ -11,4 +11,4 @@ class Reservation(ReservationCreate):
     utilisateur_id: int
     seance_id: int
     date_reservation: datetime
-    statut: Literal["CONFIRME", "ANNULE"] 
+    statut: Literal["CONFIRMEE", "ANNULEE"] 

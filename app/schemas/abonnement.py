@@ -5,9 +5,9 @@ from typing import Literal
 
 class AbonnementCreate(BaseModel):
     utilisateur_id: int
-    type_abonnement: str
+    type_abonnement: Literal["MENSUEL", "TRIMESTRIEL", "PREMIUM", "ANNUEL"]
     date_debut: date 
-    date_fin: date
+    date_fin: date 
     prix: float = Field(gt=0)   
     statut: Literal["ACTIF", "EXPIRE", "ANNULE"] = "ACTIF"
     @model_validator(mode="after")  

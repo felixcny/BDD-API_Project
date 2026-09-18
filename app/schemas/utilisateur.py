@@ -15,6 +15,6 @@ class Utilisateur(UtilisateurBase):
     model_config = ConfigDict(from_attributes=True)
     utilisateur_id: int 
     date_inscription: date
-    role: Literal["ADMIN", "COACH", "CLIENT"]
+    role: Literal["ADMIN", "COACH", "MEMBRE"]
     
     
