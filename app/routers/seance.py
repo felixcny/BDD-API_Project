@@ -9,7 +9,7 @@ from app import models, schemas
 from app.database import get_db
 from app.schemas import Seance, SeanceCreate
 
-router = APIRouter(prefix="/seances", tags=["seances"])
+router = APIRouter(prefix="/seances", tags=["Seances"])
 
 DB = Annotated[Session, Depends(get_db)]
 
