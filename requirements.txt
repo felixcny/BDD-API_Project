@@ -8,3 +8,5 @@ oracledb>=2.0
 sqlalchemy>=2.0
 alembic
 argon2-cffi>=21.3
+PyJWT
+email-validator
