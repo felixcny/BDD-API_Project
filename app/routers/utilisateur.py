@@ -1,13 +1,13 @@
 from typing import Annotated, Literal
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import DBAPIError
 
 from app.database import get_db
-from app import models
-from app import security
+from app import models, security, schemas
 from app.schemas import Utilisateur, Abonnement
 
 router = APIRouter(prefix="/utilisateurs", tags=["Utilisateurs"])
@@ -37,3 +37,15 @@ def lire_utilisateur_me(utilisateur: current_user):
 @router.get("/{utilisateur_id}", response_model=Utilisateur)
 def lire_utilisateur(db: DB, utilisateur_id: int, admin:Admin):
     return utilisateur_404(utilisateur_id, db)
+
+@router.put("/{utilisateur_id}/role")
+def modifier_utilisateur_role(db: DB, utilisateur_id: int, admin: Admin, modification: schemas.UtilisateurUpdateRole):
+    utilisateur = utilisateur_404(utilisateur_id, db)
+    utilisateur.role = modification.role
+    try:
+        db.commit()
+        db.refresh(utilisateur)
+    except DBAPIError:
+        db.rollback()
+        raise HTTPException(status_code=HTTP_409_CONFLICT, detail="Erreur lors de la modification")
+    return utilisateur

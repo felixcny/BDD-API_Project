@@ -16,5 +16,8 @@ class Utilisateur(UtilisateurBase):
     utilisateur_id: int 
     date_inscription: date
     role: Literal["ADMIN", "COACH", "MEMBRE"]
+
+class UtilisateurUpdateRole(BaseModel):
+    role: Literal["ADMIN", "COACH", "MEMBRE"]
     
     

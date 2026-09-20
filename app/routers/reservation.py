@@ -67,3 +67,4 @@ def annuler_reservation(db: DB, utilisateur: current_user, reservation_id: int):
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de l'annulation de la reservation")
     db.refresh(reservation)
     return reservation
+

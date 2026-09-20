@@ -1,9 +1,10 @@
 from typing import Annotated, Literal
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import DBAPIError
 
 from app import models, security
 from app.database import get_db
@@ -40,3 +41,34 @@ def lire_abonnement_me(db: DB, utilisateur: current_user):
 @router.get("/{abonnement_id}", response_model=Abonnement)
 def lire_abonnement(db: DB, admin:Admin, abonnement_id: int):
     return abonnement_404(abonnement_id, db)
+
+@router.post("", response_model=Abonnement, status_code=status.HTTP_201_CREATED)
+def creer_abonnement(db: DB, admin: Admin, abonnement: AbonnementCreate):
+    utilisateur = db.get(models.Utilisateur, abonnement.utilisateur_id)
+    if utilisateur is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Utilisateur introuvable")
+    if utilisateur.role != "ADMIN":
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Vous devez être connecté pour acheter un abonnement")
+    nouvel_abonnement = models.Abonnement(utilisateur_id = utilisateur.utilisateur_id, type_abonnement = abonnement.type_abonnement, date_debut = abonnement.date_debut, date_fin = abonnement.date_fin, prix = abonnement.prix, statut = abonnement.statut)
+    try:
+        db.add(nouvel_abonnement)
+        db.commit()
+        db.refresh(nouvel_abonnement)
+    except DBAPIError:
+        db.rollback()
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de l'achat de l'abonnement")
+    return nouvel_abonnement
+
+@router.delete("/{abonnement_id}", response_model=Abonnement)
+def annuler_abonnement(db:DB, admin:Admin, abonnement_id:int):
+    abonnement = abonnement_404(abonnement_id, db)
+    if abonnement.statut == "ANNULE":
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Abonnement deja annulé")
+    try:
+        abonnement.statut = "ANNULE"
+        db.commit()
+        db.refresh(abonnement)
+    except DBAPIError:
+        db.rollback()
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de l'annulation de l'abonnement")
+    return abonnement

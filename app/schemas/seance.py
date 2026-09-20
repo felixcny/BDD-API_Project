@@ -11,3 +11,10 @@ class SeanceCreate(BaseModel):
 class Seance(SeanceCreate):
     model_config = ConfigDict(from_attributes=True)
     seance_id: int
+
+class SeanceStats(BaseModel):
+    seance_id: int
+    capacite_max: int
+    nombre_reservations: int
+    nombre_places_disponibles: int
+    
