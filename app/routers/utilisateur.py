@@ -31,7 +31,7 @@ def lister_utilisateurs(db: DB, admin:Admin, role: Literal["ADMIN","MEMBRE", "CO
     return db.scalars(requete).all()
 
 @router.get("/me", response_model=Utilisateur)
-def lire_utilisateur(utilisateur: current_user):
+def lire_utilisateur_me(utilisateur: current_user):
     return utilisateur
 
 @router.get("/{utilisateur_id}", response_model=Utilisateur)
