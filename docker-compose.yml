@@ -1,0 +1,69 @@
+services:
+
+  oracle:
+    # Base Oracle utilisée par l'application
+    image: container-registry.oracle.com/database/free:latest
+
+    environment:
+      # Mot de passe administrateur Oracle
+      ORACLE_PWD: ${ORACLE_PWD}
+
+      # Mot de passe utilisé par notre script pour créer gym_app
+      GYM_DB_PASSWORD: ${GYM_DB_PASSWORD}
+
+    ports:
+      # On utilise 1522 pour éviter le conflit avec ton ancien conteneur orcl-free
+      - "1522:1521"
+
+      # Port Oracle Enterprise Manager, décalé aussi
+      - "5501:5500"
+
+    volumes:
+      # Conserve les données Oracle entre les redémarrages
+      - oracle_data:/opt/oracle/oradata
+
+      # Scripts exécutés lors de la première initialisation Oracle
+      - ./docker/oracle:/opt/oracle/scripts/setup:ro
+
+    shm_size: "1g"
+
+
+  api:
+    # Construit l'API à partir du Dockerfile du projet
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      # Swagger sera accessible sur http://localhost:8000/docs
+      - "8000:8000"
+
+    environment:
+      # Dans Docker, l'API contacte Oracle avec le nom du service "oracle"
+      # et non localhost.
+      DATABASE_URL: oracle+oracledb://gym_app:${GYM_DB_PASSWORD}@oracle:1521/?service_name=FREEPDB1
+
+      # Configuration JWT
+      SECRET_KEY: ${SECRET_KEY}
+      ALGORITHM: ${ALGORITHM}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES}
+
+    depends_on:
+      - oracle
+
+    # Oracle met du temps à démarrer.
+    # On essaie donc Alembic en boucle jusqu'à ce que la BDD soit disponible.
+    command: >
+      sh -c "
+      until alembic upgrade head;
+      do
+        echo 'Oracle pas encore pret - nouvelle tentative dans 10 secondes...';
+        sleep 10;
+      done;
+      exec uvicorn app.main:app --host 0.0.0.0 --port 8000
+      "
+
+
+volumes:
+  # Volume persistant pour les fichiers de la BDD Oracle
+  oracle_data:

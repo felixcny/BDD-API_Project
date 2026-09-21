@@ -1,0 +1,2 @@
+# Les scripts shell doivent rester en format Linux dans Git.
+*.sh text eol=lf
