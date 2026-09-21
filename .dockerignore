@@ -1,0 +1,16 @@
+# L'environnement virtuel Windows ne doit pas entrer dans l'image Docker
+venv/
+
+# Ne jamais copier les secrets locaux dans l'image
+.env
+
+# Fichiers générés automatiquement par Python
+__pycache__/
+*.pyc
+
+# Fichiers Git inutiles dans le conteneur
+.git/
+.gitignore
+
+# Cache pytest éventuel
+.pytest_cache/
