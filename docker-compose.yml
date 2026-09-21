@@ -23,7 +23,7 @@ services:
       - oracle_data:/opt/oracle/oradata
 
       # Scripts exécutés lors de la première initialisation Oracle
-      - ./docker/oracle:/opt/oracle/scripts/setup:ro
+      - ./docker/oracle:/opt/oracle/scripts/startup:ro
 
     shm_size: "1g"
 
