@@ -8,7 +8,7 @@ from sqlalchemy.exc import DBAPIError
 
 from app import models, security
 from app.database import get_db
-from app.schemas import Abonnement, AbonnementCreate
+from app.schemas import Abonnement, AbonnementCreate, AbonementUpdate
 
 router = APIRouter(prefix="/abonnements", tags=["Abonnements"])
 
@@ -71,4 +71,20 @@ def annuler_abonnement(db:DB, admin:Admin, abonnement_id:int):
     except DBAPIError:
         db.rollback()
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de l'annulation de l'abonnement")
+    return abonnement
+
+@router.put("/{abonnement_id}", response_model=Abonnement)
+def modifier_abonnement(db: DB, admin:Admin, abonnement_id:int, modification:AbonementUpdate):
+    abonnement = abonnement_404(abonnement_id, db)
+    abonnement.type_abonnement = modification.type_abonnement
+    abonnement.date_debut = modification.date_debut
+    abonnement.date_fin = modification.date_fin
+    abonnement.prix = modification.prix
+    abonnement.statut = modification.statut
+    try:
+        db.commit()
+        db.refresh(abonnement)
+    except DBAPIError:
+        db.rollback()
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de la modification de l'abonnement")
     return abonnement
