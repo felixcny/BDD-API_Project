@@ -47,8 +47,6 @@ def creer_abonnement(db: DB, admin: Admin, abonnement: AbonnementCreate):
     utilisateur = db.get(models.Utilisateur, abonnement.utilisateur_id)
     if utilisateur is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Utilisateur introuvable")
-    if utilisateur.role != "ADMIN":
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Vous devez être connecté pour acheter un abonnement")
     nouvel_abonnement = models.Abonnement(utilisateur_id = utilisateur.utilisateur_id, type_abonnement = abonnement.type_abonnement, date_debut = abonnement.date_debut, date_fin = abonnement.date_fin, prix = abonnement.prix, statut = abonnement.statut)
     try:
         db.add(nouvel_abonnement)

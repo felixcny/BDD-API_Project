@@ -13,7 +13,7 @@ services:
 
     ports:
       # On utilise 1522 pour éviter le conflit avec ton ancien conteneur orcl-free
-      - "1522:1521"
+      - "${ORACLE_HOST_PORT:-1522}:1521"
 
       # Port Oracle Enterprise Manager, décalé aussi
       - "5501:5500"
@@ -26,7 +26,6 @@ services:
       - ./docker/oracle:/opt/oracle/scripts/startup:ro
 
     shm_size: "1g"
-
 
   api:
     # Construit l'API à partir du Dockerfile du projet
@@ -54,15 +53,10 @@ services:
     # Oracle met du temps à démarrer.
     # On essaie donc Alembic en boucle jusqu'à ce que la BDD soit disponible.
     command: >
-      sh -c "
-      until alembic upgrade head;
-      do
+      sh -c " until alembic upgrade head; do
         echo 'Oracle pas encore pret - nouvelle tentative dans 10 secondes...';
         sleep 10;
-      done;
-      exec uvicorn app.main:app --host 0.0.0.0 --port 8000
-      "
-
+      done; exec uvicorn app.main:app --host 0.0.0.0 --port 8000 "
 
 volumes:
   # Volume persistant pour les fichiers de la BDD Oracle
