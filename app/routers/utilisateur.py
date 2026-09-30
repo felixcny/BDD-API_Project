@@ -47,5 +47,5 @@ def modifier_utilisateur_role(db: DB, utilisateur_id: int, admin: Admin, modific
         db.refresh(utilisateur)
     except DBAPIError:
         db.rollback()
-        raise HTTPException(status_code=HTTP_409_CONFLICT, detail="Erreur lors de la modification")
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de la modification")
     return utilisateur

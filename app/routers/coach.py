@@ -59,14 +59,22 @@ def creer_coach(db: DB, admin:Admin, coach:CoachCreate):
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de la création du coach")
     return nouveau_coach
 
-@router.put("/{coach_id}", response_model=Coach)
-def modifier_coach(db: DB, admin:Admin, coach_id:int, modification:CoachUpdate):
-    coach = coach_404(coach_id, db)
-    coach.specialite = modification.specialite
+@router.put("/{utilisateur_id}/role")
+def modifier_utilisateur_role(
+    db: DB,
+    utilisateur_id: int,
+    admin: Admin,
+    modification: schemas.UtilisateurUpdateRole
+):
+    utilisateur = utilisateur_404(utilisateur_id, db)
+    utilisateur.role = modification.role
     try:
         db.commit()
-        db.refresh(coach)
+        db.refresh(utilisateur)
     except DBAPIError:
         db.rollback()
-        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Erreur lors de la modification du coach")
-    return coach
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail="Erreur lors de la modification"
+        )
+    return utilisateur

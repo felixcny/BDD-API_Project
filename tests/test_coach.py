@@ -49,3 +49,23 @@ def test_membre_creation_coach(membre):
         },
     )
     assert response.status_code == 403
+
+def test_retirer_coach(admin, coach):
+    response = httpx.put(
+        f"{BASE_URL}/utilisateurs/{coach['utilisateur_id']}/role",
+        headers={
+            "Authorization": f"Bearer {admin['token']}"
+        },
+        json={
+            "role": "MEMBRE",
+        },
+    )
+    assert response.status_code == 409
+    verif = httpx.get(
+        f"{BASE_URL}/utilisateurs/{coach['utilisateur_id']}",
+        headers={
+            "Authorization": f"Bearer {admin['token']}"
+        },
+    )
+    assert verif.status_code == 200
+    assert verif.json()["role"] == "COACH"
