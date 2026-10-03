@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches:
+        - main
+
+    pull_request:
+        branches:
+        - main
+
+
+jobs:
+    integration-tests:
+        name: Test API + Oracle
+        runs-on: ubuntu-latest
+        timeout-minutes: 15
+
+        env:
+            ORACLE_PWD: OracleCI1234
+            GYM_DB_PASSWORD: oracle
+            ORACLE_HOST_PORT: "1522"
+
+            SECRET_KEY: CleSecreteTest123
+            ALGORITHM: "HS256"
+            ACCESS_TOKEN_EXPIRE_MINUTES: 30
+        
+        steps:
+            - name: Récupérer projet
+              uses: actions/checkout@v4
+            
+            - name: Installer Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: "3.11"
+            
+            - name: Installer les dépendances
+              run: |
+                python -m pip install --upgrade pip
+                pip install -r requirements.txt
+
+            - name: Vérifier Docker 
+              run: docker compose config
+
+            - name: Démarre Oracle et FastAPI
+              run: docker compose up -d --build
+
+            - name: Attendre API prete
+             run: |
+                for i in {1..90}
+                do
+                if curl -fsS http://localhost:8000/openapi.json > /dev/null
+                then
+                    echo "API disponible"
+                    exit 0
+                fi
+
+                echo "Oracle / API pas encore pret - attente de 10 secondes..."
+                sleep 10
+                done
+
+                echo "L API n a pas demarre dans le delai imparti"
+                docker compose ps
+                docker compose logs --no-color
+                exit 1
+
+            - name: Lancer les tests
+              run: python -m pytest -v
+
+            - name: Logs docker si erreur 
+              if: failure()
+              run: docker compose logs --no-color
+            
+            - name: Arreter les containers
+              if: always()
+              run: docker compose down -v
+                
